@@ -10,7 +10,7 @@ def client():
 # test the database connection
 def test_get_db_connection():
     conn = get_db_connection()
-    assert conn is None
+    assert conn is not None
     conn.close()
 
 #test the index function
