@@ -1,6 +1,6 @@
 # Assignment 5 - CI/CD - GitOps
 
-**Task-1 GitOps**
+## Task 1: GitOps
 
 1. Sangram Jagtap
 2. Omkar Nagarkar
@@ -8,67 +8,94 @@
 4. Atharva Jadhav
 
 
-GitOps is a paradigm or a set of practices that emphasizes the use of Git as the source of truth for declarative infrastructure and applications. With Git at the center of the delivery pipelines, every change is submitted as a commit, which then goes through a version control system for approval before being applied to the infrastructure. It combines the version control system for code with the automation to apply that code to the infrastructure. This approach allows for improved collaboration, increased deployment speed and frequency, enhanced reliability and stability, and better compliance and auditing.
+**GitOps** is a paradigm or a set of practices that emphasizes the use of Git as the source of truth for declarative infrastructure and applications. With Git at the center of the delivery pipelines, every change is submitted as a commit, which then goes through a version control system for approval before being applied to the infrastructure. It combines the version control system for code with the automation to apply that code to the infrastructure. This approach allows for improved collaboration, increased deployment speed and frequency, enhanced reliability and stability, and better compliance and auditing.
 
 **Benefits that organizations can realize by adopting GitOps:**
 
 **Increased Deployment Speed and Frequency:**
+
 Automation and integrated collaboration mechanisms greatly increase the speed and frequency of deployments.
 
-**Increased Reliability:** With Git's revert/rollback capabilities, it's straightforward to roll back to the last known good configuration, reducing recovery time.
+**Increased Reliability:**
 
-**Improved Stability:** Audit logs are automatically created for all changes, ensuring greater system stability.
+With Git's revert/rollback capabilities, it's straightforward to roll back to the last known good configuration, reducing recovery time.
 
-**Consistency and Standardization:** Environments are defined as code, allowing for consistent deployment across different environments.
+**Improved Stability:**
+
+Audit logs are automatically created for all changes, ensuring greater system stability.
+
+**Consistency and Standardization:**
+
+Environments are defined as code, allowing for consistent deployment across different environments.
 
 **Improved Collaboration:**
+
 GitOps keeps the entire state of your environment under source control, making it easier to collaborate on infrastructure changes.
 
-**Ease of Adoption:** Git is widely used and understood, making it easier for developers to adopt GitOps practices.
+**Ease of Adoption:**
 
-**Greater Efficiency:** Teams don't have to switch tools to manage updates, increasing efficiency.
+Git is widely used and understood, making it easier for developers to adopt GitOps practices.
 
-**More Robust Security:** Using Git for infrastructure definitions enhances security and makes all changes auditable.
+**Greater Efficiency:**
+
+Teams don't have to switch tools to manage updates, increasing efficiency.
+
+**More Robust Security:**
+
+Using Git for infrastructure definitions enhances security and makes all changes auditable.
 
 
-**Case Study:**
+### Case Study:
 
 Improving Developer Experience at a Financial Services Company with GitOps
 
-Organization:
+**Organization**:
+
 A large, heavily regulated financial services company.
 
-Challenge:
+**Challenge**:
+
 The company needed to improve its developer experience to deliver value more efficiently while maintaining compliance and oversight.
 
-Solution:
+**Solution**:
+
 The company implemented GitOps to manage their infrastructure and application deployment processes.
 
-Implementation:
-They stored the state of their infrastructure in Git, ensuring every change was tracked and had an audit trail.
-All infrastructure changes were made through automated Git commits.
-They used a tool that automatically deployed whatever was in the Git repository, streamlining the deployment process.
+**Implementation**:
+1. They stored the state of their infrastructure in Git, ensuring every change was tracked and had an audit trail.
 
-Benefits Realized:
-Increased Visibility:
+2. All infrastructure changes were made through automated Git commits.
+
+3. They used a tool that automatically deployed whatever was in the Git repository, streamlining the deployment process.
+
+**Benefits Realized**:
+
+1. Increased Visibility:
 Keeping infrastructure configuration in Git allowed new starters or colleagues from other teams to quickly become acquainted with the infrastructure.
-Improved DORA Metrics:
+
+2. Improved DORA Metrics:
 GitOps helped improve key DevOps Research and Assessment (DORA) metrics, which are crucial indicators of a team's performance in software system development.
- Deployment Frequency: More frequent and successful releases to production.
-Lead Time for Changes: Reduced time from commit to production.
+
+3. Deployment Frequency: More frequent and successful releases to production.
+
+4. Lead Time for Changes: Reduced time from commit to production.
 Change Failure Rate: Lower percentage of deployments causing a failure in production.
-Time to Restore Service: Quicker recovery from failures in production.
-Enhanced Developer Experience:
+
+5. Time to Restore Service:
+6. Quicker recovery from failures in production.
+
+7. Enhanced Developer Experience:
 The GitOps framework provided a repeatable pattern to automate tasks, thereby improving the overall developer experience.
-Disaster Recovery:
+
+8. Disaster Recovery:
 In the event of a complete cluster failure, pointing a rebuilt or new cluster to the Git repository allowed for quick restoration of resources, improving the Time to Restore Service metric.
 
-Key Principles:
+**Key Principles**:
 The company focused on key principles rather than specific tooling, emphasizing the importance of Git as the only required tool.
 They chose the best tools for the job, preferring flexibility over alignment with a specific vendor.
 
 
-**Task 2 Create the CICD**
+## Task 2: Create the CI/CD
 
 **1. You are free to choose the software tooling of your choice**
 
