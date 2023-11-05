@@ -97,6 +97,39 @@ Cost-effective: For public repositories, GitHub Actions provides a generous amou
 
 **4. Capture screenshots of your build pipeline in action and explain what is happening at each step.**
 
+Create the CI.yml file that controls the workflow of the pipeline: https://github.com/purvil-patel/CMPE-272-CI-CD/blob/main/.github/workflows/CI.yml
+
+When we commit or create PR on the main branch then it will run first the test job and the build job.
+
+
+<img width="1435" alt="image" src="https://github.com/purvil-patel/CMPE-272-CI-CD/assets/67355397/7740c5d9-53be-4942-9410-7545318e371a">
+
+
+When the Test job fails then the build job won’t run.
+
+<img width="1435" alt="image" src="https://github.com/purvil-patel/CMPE-272-CI-CD/assets/67355397/eb78c02d-9bee-45e8-9e08-a397f91ccaa2">
+
+
+Docker Hub Repo
+
+<img width="1435" alt="image" src="https://github.com/purvil-patel/CMPE-272-CI-CD/assets/67355397/606b1e57-4c79-43ca-92de-2bd5161a1241">
+
+
+Python TestCased Are getting passed
+
+<img width="1435" alt="image" src="https://github.com/purvil-patel/CMPE-272-CI-CD/assets/67355397/ba9bf0eb-df1f-4793-a7d4-cb26214b7193">
+
+
+Working Demo
+
+
+
+
+
+
+
+
+
 
 
 
