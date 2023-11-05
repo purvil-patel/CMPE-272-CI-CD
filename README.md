@@ -2,10 +2,10 @@
 
 **Task-1 GitOps**
 
-Sangram Jagtap
-Omkar Nagarkar
-Purvil Patel
-Atharva Jadhav
+1. Sangram Jagtap
+2. Omkar Nagarkar
+3. Purvil Patel
+4. Atharva Jadhav
 
 
 GitOps is a paradigm or a set of practices that emphasizes the use of Git as the source of truth for declarative infrastructure and applications. With Git at the center of the delivery pipelines, every change is submitted as a commit, which then goes through a version control system for approval before being applied to the infrastructure. It combines the version control system for code with the automation to apply that code to the infrastructure. This approach allows for improved collaboration, increased deployment speed and frequency, enhanced reliability and stability, and better compliance and auditing.
