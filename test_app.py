@@ -27,4 +27,4 @@ def test_create_post(client):
     response = client.post('/create', data=new_post, follow_redirects=True)
     assert response.status_code == 200
     
-# Test the commit is working
+# Test the commit is functional
